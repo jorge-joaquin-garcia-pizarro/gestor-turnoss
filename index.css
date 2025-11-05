@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Versión minimalista del botón Discord */
+.btn-discord.minimalist {
+  background: white;
+  color: #5865F2;
+  border: 2px solid #5865F2;
+  box-shadow: none;
+}
+
+.btn-discord.minimalist:hover {
+  background: #5865F2;
+  color: white;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(88, 101, 242, 0.3);
+}
+
+.btn-discord.minimalist .discord-icon {
+  background: #5865F2;
+}
+
+.btn-discord.minimalist .discord-icon svg {
+  color: white;
+}
+
+.btn-discord.minimalist:hover .discord-icon {
+  background: white;
+}
+
+.btn-discord.minimalist:hover .discord-icon svg {
+  color: #5865F2;
+}
