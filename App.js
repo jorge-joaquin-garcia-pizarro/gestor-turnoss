@@ -172,7 +172,7 @@ function App() {
         <Router>
           <div className="app">
             <div className="auth-header">
-              <h1>💅 Centro de Estética - Iniciar Sesión</h1>
+              <h1>Centro de Estética</h1>
             </div>
             {notification && (
               <Notification
@@ -256,7 +256,7 @@ function App() {
         <header className="app-header">
           <div className="header-top">
             <div className="header-title">
-              <h1>💅 {currentUser.salonName || 'Gestor de Turnos'}</h1>
+              <h1> {currentUser.salonName || 'Gestor de Turnos'}</h1>
               <span className={`role-indicator ${currentUser.userType === 'owner' ? 'role-owner' : currentUser.userType === 'receptionist' ? 'role-receptionist' : 'role-employee'}`}>
                 {currentUser.userType === 'owner' ? '👑 Administrador' : currentUser.userType === 'receptionist' ? '💼 Recepcionista' : '👨‍💼 Empleado'}
               </span>
